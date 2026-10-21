@@ -1,0 +1,1309 @@
+<!DOCTYPE html>
+<html lang="ms">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Meta Ads Optimization Analysis Report — Godeco Services Sdn Bhd</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Plus Jakarta Sans', sans-serif;
+      background-color: #090d16;
+      color: #cbd5e1;
+    }
+    .font-mono-num {
+      font-family: 'Space Grotesk', monospace;
+    }
+    .custom-scrollbar::-webkit-scrollbar {
+      width: 6px;
+      height: 6px;
+    }
+    .custom-scrollbar::-webkit-scrollbar-track {
+      background: #0f172a;
+    }
+    .custom-scrollbar::-webkit-scrollbar-thumb {
+      background: #334155;
+      border-radius: 9999px;
+    }
+    .glass-surface {
+      background: linear-gradient(135deg, rgba(15, 23, 42, 0.88) 0%, rgba(15, 23, 42, 0.70) 100%);
+      backdrop-filter: blur(16px);
+      -webkit-backdrop-filter: blur(16px);
+      border: 1px solid rgba(255, 255, 255, 0.08);
+    }
+    .glass-surface-highlight {
+      background: linear-gradient(135deg, rgba(30, 41, 59, 0.85) 0%, rgba(15, 23, 42, 0.95) 100%);
+      border: 1px solid rgba(56, 189, 248, 0.35);
+    }
+    .nav-tab-active {
+      background: linear-gradient(135deg, #2563eb 0%, #1d4ed8 100%);
+      color: #ffffff !important;
+      border-color: rgba(96, 165, 250, 0.5);
+      box-shadow: 0 4px 18px -2px rgba(37, 99, 235, 0.5);
+    }
+  </style>
+</head>
+<body class="min-h-screen custom-scrollbar selection:bg-blue-600 selection:text-white">
+
+  <!-- TOP HEADER -->
+  <header class="border-b border-slate-800/80 bg-slate-950/90 backdrop-blur-xl sticky top-0 z-50 px-4 md:px-8 py-3.5 transition-all">
+    <div class="max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-between gap-4">
+      <div class="flex items-center gap-3.5 w-full md:w-auto">
+        <!-- FH Executive Monogram -->
+        <div class="relative group cursor-pointer">
+          <div class="w-11 h-11 rounded-xl bg-gradient-to-br from-blue-600 via-indigo-600 to-emerald-500 p-[1.5px] shadow-lg shadow-blue-500/20">
+            <div class="w-full h-full bg-slate-950 rounded-[10px] flex items-center justify-center">
+              <span class="font-black text-transparent bg-clip-text bg-gradient-to-tr from-blue-400 via-sky-300 to-emerald-400 text-lg tracking-wider font-mono-num">FH</span>
+            </div>
+          </div>
+          <div class="absolute -bottom-1 -right-1 w-3.5 h-3.5 bg-emerald-500 rounded-full border-2 border-slate-950" title="Data Disahkan: Audit Operasi Godeco Services"></div>
+        </div>
+
+        <div>
+          <div class="flex items-center gap-2.5">
+            <h1 class="text-base md:text-lg font-extrabold text-white tracking-tight flex items-center gap-2">
+              Meta Ads Optimization Analysis Report
+              <span class="text-slate-500 text-xs font-normal">|</span>
+              <span class="text-xs font-semibold px-2 py-0.5 rounded bg-blue-500/10 text-blue-400 border border-blue-500/25">Godeco Services Sdn Bhd</span>
+            </h1>
+          </div>
+          <p class="text-xs text-slate-400 mt-0.5">
+            Pasaran: <span class="text-slate-200 font-semibold">Lembah Klang</span> &bull; Sasaran Jualan: <span class="text-emerald-400 font-mono-num font-semibold">30 Deals Design & BQ (RM150k/bln) & Upsell D&B &ge; RM150k</span>
+          </p>
+        </div>
+      </div>
+
+      <!-- Quick Executive KPI Strip -->
+      <div class="flex items-center gap-4 bg-slate-900/90 border border-slate-800 px-4 py-2 rounded-xl text-xs w-full md:w-auto justify-between md:justify-start">
+        <div>
+          <span class="text-slate-400 block text-[11px] uppercase tracking-wider">Audit Data Godeco (Okt):</span>
+          <span class="font-mono-num font-bold text-sky-400 flex items-center gap-1.5">
+            <i class="fa-solid fa-chart-pie text-[10px]"></i> RM 6,813.09 (201 Leads)
+          </span>
+        </div>
+        <div class="h-7 w-px bg-slate-800"></div>
+        <div>
+          <span class="text-slate-400 block text-[11px] uppercase tracking-wider">Front-End Sales:</span>
+          <span class="font-mono-num font-bold text-amber-400 flex items-center gap-1.5">
+            <i class="fa-solid fa-file-invoice-dollar text-[10px]"></i> 30 Deals &times; RM5k = RM150,000/bln
+          </span>
+        </div>
+        <div class="h-7 w-px bg-slate-800 hidden lg:block"></div>
+        <div class="hidden lg:block">
+          <span class="text-slate-400 block text-[11px] uppercase tracking-wider">Back-End D&B:</span>
+          <span class="font-mono-num font-bold text-emerald-400 flex items-center gap-1">
+            <i class="fa-solid fa-gem text-[10px]"></i> Minima Renovasi &ge; RM 150,000
+          </span>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- NAVIGATION TABS -->
+  <nav class="max-w-7xl mx-auto px-4 md:px-8 pt-6">
+    <div class="flex flex-wrap items-center gap-1.5 p-1.5 bg-slate-900/90 border border-slate-800/80 rounded-2xl shadow-xl">
+      <button type="button" onclick="switchTab('overview')" id="tab-overview" class="tab-btn px-3.5 py-2 rounded-xl text-xs font-bold transition-all flex items-center gap-2 nav-tab-active">
+        <i class="fa-solid fa-gauge-simple-high"></i> 1. Ringkasan & GAP Analysis
+      </button>
+      <button type="button" onclick="switchTab('octoberdata')" id="tab-octoberdata" class="tab-btn px-3.5 py-2 rounded-xl text-xs font-bold text-slate-400 hover:text-white transition-all flex items-center gap-2">
+        <i class="fa-solid fa-table-cells text-emerald-400"></i> 2. Audit Data Sebenar Godeco (Monthly vs Open Day)
+      </button>
+      <button type="button" onclick="switchTab('funnelbenchmarks')" id="tab-funnelbenchmarks" class="tab-btn px-3.5 py-2 rounded-xl text-xs font-bold text-slate-400 hover:text-white transition-all flex items-center gap-2">
+        <i class="fa-solid fa-filter-circle-dollar"></i> 3. Corong Penukaran & Model 30 Deals
+      </button>
+      <button type="button" onclick="switchTab('audiencehijack')" id="tab-audiencehijack" class="tab-btn px-3.5 py-2 rounded-xl text-xs font-bold text-slate-400 hover:text-white transition-all flex items-center gap-2">
+        <i class="fa-solid fa-bullseye text-sky-400"></i> 4. Retargeting & Tawanan Audiens Pesaing
+      </button>
+      <button type="button" onclick="switchTab('winningad')" id="tab-winningad" class="tab-btn px-3.5 py-2 rounded-xl text-xs font-bold text-slate-400 hover:text-white transition-all flex items-center gap-2">
+        <i class="fa-solid fa-trophy text-amber-400"></i> 5. Bedah Siasat Video Iklan Pemenang
+      </button>
+      <button type="button" onclick="switchTab('salesobjections')" id="tab-salesobjections" class="tab-btn px-3.5 py-2 rounded-xl text-xs font-bold text-slate-400 hover:text-white transition-all flex items-center gap-2">
+        <i class="fa-solid fa-shield-halved text-rose-400"></i> 6. Matriks Rejection & Tawaran Deposit RM50
+      </button>
+      <button type="button" onclick="switchTab('placements')" id="tab-placements" class="tab-btn px-3.5 py-2 rounded-xl text-xs font-bold text-slate-400 hover:text-white transition-all flex items-center gap-2">
+        <i class="fa-solid fa-layer-group text-purple-400"></i> 7. Analisis Placement & Format ID
+      </button>
+      <button type="button" onclick="switchTab('threads')" id="tab-threads" class="tab-btn px-3.5 py-2 rounded-xl text-xs font-bold text-slate-400 hover:text-white transition-all flex items-center gap-2">
+        <i class="fa-brands fa-threads text-amber-400"></i> 8. Eksplorasi Threads
+      </button>
+      <button type="button" onclick="switchTab('actionplan')" id="tab-actionplan" class="tab-btn px-3.5 py-2 rounded-xl text-xs font-bold text-slate-400 hover:text-white transition-all flex items-center gap-2">
+        <i class="fa-solid fa-chess-knight text-emerald-400"></i> 9. Pelan Tindakan Bersepadu
+      </button>
+    </div>
+  </nav>
+
+  <!-- MAIN TAB CONTENT AREA -->
+  <main class="max-w-7xl mx-auto px-4 md:px-8 py-6 space-y-6">
+
+    <!-- ========================================== -->
+    <!-- TAB 1: OVERVIEW & GAP ANALYSIS             -->
+    <!-- ========================================== -->
+    <div id="content-overview" class="space-y-6">
+      
+      <!-- Top 4 Executive KPI Cards -->
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
+        
+        <div class="glass-surface p-5 rounded-2xl relative overflow-hidden group hover:border-slate-700 transition-all">
+          <div class="flex justify-between items-start mb-2">
+            <span class="text-xs font-bold text-slate-400 uppercase tracking-wider">Sasaran Jualan Bulanan</span>
+            <div class="w-8 h-8 rounded-lg bg-emerald-500/10 text-emerald-400 flex items-center justify-center text-sm"><i class="fa-solid fa-coins"></i></div>
+          </div>
+          <div class="text-2xl font-extrabold text-white font-mono-num">RM 150,000</div>
+          <div class="mt-2 text-xs text-slate-400 flex items-center gap-1.5">
+            <span class="text-emerald-400 font-semibold font-mono-num">30 Klien &times; RM5,000</span> (Design & BQ Sahaja)
+          </div>
+        </div>
+
+        <div class="glass-surface p-5 rounded-2xl relative overflow-hidden group hover:border-slate-700 transition-all">
+          <div class="flex justify-between items-start mb-2">
+            <span class="text-xs font-bold text-slate-400 uppercase tracking-wider">Data Belanja Iklan Godeco (Okt)</span>
+            <div class="w-8 h-8 rounded-lg bg-blue-500/10 text-blue-400 flex items-center justify-center text-sm"><i class="fa-solid fa-wallet"></i></div>
+          </div>
+          <div class="text-2xl font-extrabold text-white font-mono-num">RM 6,813.09</div>
+          <div class="mt-2 text-xs text-slate-400 flex items-center gap-1">
+            201 Leads &bull; Purata CPL: <span class="text-emerald-400 font-mono-num font-bold">RM 33.89</span>
+          </div>
+        </div>
+
+        <div class="glass-surface p-5 rounded-2xl relative overflow-hidden group hover:border-slate-700 transition-all">
+          <div class="flex justify-between items-start mb-2">
+            <span class="text-xs font-bold text-slate-400 uppercase tracking-wider">Leads Berkualiti (Okt)</span>
+            <div class="w-8 h-8 rounded-lg bg-amber-500/10 text-amber-400 flex items-center justify-center text-sm"><i class="fa-solid fa-bolt"></i></div>
+          </div>
+          <div class="text-2xl font-extrabold text-amber-400 font-mono-num">17 Qualified</div>
+          <div class="mt-2 text-xs text-slate-400">
+            Fasa 14–19 Okt: CPLQ turun ke <span class="text-emerald-400 font-mono-num font-semibold">RM 215.55</span>
+          </div>
+        </div>
+
+        <div class="glass-surface p-5 rounded-2xl relative overflow-hidden group hover:border-slate-700 transition-all">
+          <div class="flex justify-between items-start mb-2">
+            <span class="text-xs font-bold text-slate-400 uppercase tracking-wider">Potensi Pipeline D&B Back-End</span>
+            <div class="w-8 h-8 rounded-lg bg-purple-500/10 text-purple-400 flex items-center justify-center text-sm"><i class="fa-solid fa-cubes-stacked"></i></div>
+          </div>
+          <div class="text-2xl font-extrabold text-purple-400 font-mono-num">&ge; RM 4.5 Juta</div>
+          <div class="mt-2 text-xs text-slate-400">
+            Jika 30% daripada 30 klien naik taraf ke D&B (&ge;RM150k)
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Strategy Callout -->
+      <div class="p-4 glass-surface-highlight rounded-2xl border border-blue-500/30 flex flex-col md:flex-row items-start md:items-center justify-between gap-4">
+        <div class="flex items-center gap-3.5">
+          <div class="w-11 h-11 rounded-xl bg-blue-600/20 text-blue-400 flex items-center justify-center text-xl shrink-0">
+            <i class="fa-solid fa-compass-drafting"></i>
+          </div>
+          <div>
+            <h4 class="font-extrabold text-white text-xs uppercase tracking-wider">Struktur Teras Godeco: Front-End Cash Flow & Back-End High-Ticket</h4>
+            <p class="text-xs text-slate-300 mt-0.5 leading-relaxed">
+              1. <strong>Front-End (Cash Flow & Volume):</strong> Servis <strong>Design & BQ</strong> (RM5,000 &times; 30 Deals = RM150,000/bln). Dijana menerusi tawaran <em>Sesi Konsultasi & Audit Pelan Lantai 1-on-1 Percuma (Bernilai RM300)</em> dengan Deposit Komitmen RM50 (dipulangkan 100% bila hadir).<br>
+              2. <strong>Back-End (High-Ticket Build):</strong> Menukar pemegang pelan Design & BQ kepada kontrak penuh <strong>Design & Build (&ge; RM150,000)</strong> dengan insentif rebat yuran 100% (yuran RM5k ditolak daripada nilai kontrak binaan).
+            </p>
+          </div>
+        </div>
+        <div class="flex flex-col sm:flex-row items-end sm:items-center gap-2 shrink-0">
+          <span class="px-3 py-1 bg-amber-500/20 text-amber-300 border border-amber-500/30 rounded-lg text-xs font-bold whitespace-nowrap">
+            Front-End: RM5k &times; 30
+          </span>
+          <span class="px-3 py-1 bg-emerald-500/20 text-emerald-300 border border-emerald-500/30 rounded-lg text-xs font-bold whitespace-nowrap">
+            Back-End: D&B &ge; RM150k
+          </span>
+        </div>
+      </div>
+
+      <!-- GAP Analysis Table -->
+      <div class="glass-surface p-6 rounded-2xl border-l-4 border-blue-500">
+        <div class="flex flex-col lg:flex-row justify-between items-start lg:items-center gap-3 mb-6">
+          <div>
+            <div class="flex items-center gap-2">
+              <span class="w-2 h-2 rounded-full bg-blue-500 animate-pulse"></span>
+              <h2 class="text-base font-extrabold text-white tracking-tight uppercase">Gap Analysis: Kedudukan Semasa vs Sasaran 30 Deals Godeco</h2>
+            </div>
+            <p class="text-xs text-slate-400 mt-1">Diagnosis jurang prestasi berdasarkan data operasi pendaftaran sebenar Oktober 2026.</p>
+          </div>
+          <span class="px-3 py-1 rounded-full text-xs font-mono-num bg-slate-800 text-slate-300 border border-slate-700">Sasaran: 30 Confirm Deals</span>
+        </div>
+
+        <div class="overflow-x-auto">
+          <table class="w-full text-left text-xs text-slate-300">
+            <thead class="bg-slate-900/90 text-slate-400 font-bold uppercase tracking-wider border-b border-slate-800">
+              <tr>
+                <th class="py-3 px-4 rounded-l-xl">Peringkat Corong Jualan</th>
+                <th class="py-3 px-4">Data Sebenar Terkini (Okt)</th>
+                <th class="py-3 px-4">Kadar Penukaran (%)</th>
+                <th class="py-3 px-4">Benchmark Sihat ID</th>
+                <th class="py-3 px-4">Sasaran Diperlukan (30 Deals)</th>
+                <th class="py-3 px-4 rounded-r-xl">Tindakan Pembetulan Godeco</th>
+              </tr>
+            </thead>
+            <tbody class="divide-y divide-slate-800/60">
+              <tr class="bg-rose-500/5 hover:bg-rose-500/10 transition-colors">
+                <td class="py-3.5 px-4 font-bold text-white flex items-center gap-2">
+                  <i class="fa-solid fa-users text-rose-400"></i> Raw Leads Masuk
+                </td>
+                <td class="py-3.5 px-4 font-mono-num font-semibold text-rose-300">201 leads (1–19 Okt)</td>
+                <td class="py-3.5 px-4 font-mono-num">100%</td>
+                <td class="py-3.5 px-4 text-slate-400">Borang seimbang</td>
+                <td class="py-3.5 px-4 font-mono-num font-bold text-emerald-400">300 &ndash; 320 leads / bln</td>
+                <td class="py-3.5 px-4 text-rose-300">Kekalkan geofencing Lembah Klang radius 25km. Sifar leads luar kawasan pada fasa 14–19 Okt.</td>
+              </tr>
+              <tr class="bg-amber-500/5 hover:bg-amber-500/10 transition-colors">
+                <td class="py-3.5 px-4 font-bold text-white flex items-center gap-2">
+                  <i class="fa-solid fa-user-check text-amber-400"></i> Qualified Leads (Bajet &ge; RM150k)
+                </td>
+                <td class="py-3.5 px-4 font-mono-num font-bold text-amber-400">17 leads (Kadar: 8.5%)</td>
+                <td class="py-3.5 px-4 font-mono-num font-bold text-amber-300">8.5% (Meningkat dari 5.2%)</td>
+                <td class="py-3.5 px-4 text-slate-300 font-medium">25% &ndash; 30% sasaran</td>
+                <td class="py-3.5 px-4 font-mono-num font-bold text-emerald-400">90 &ndash; 96 qualified leads</td>
+                <td class="py-3.5 px-4 text-amber-300">Gunakan video pemenang walkthrough tapak dan nyatakan rebat pelan RM5k terus dalam borang.</td>
+              </tr>
+              <tr class="hover:bg-slate-800/30 transition-colors">
+                <td class="py-3.5 px-4 font-bold text-white flex items-center gap-2">
+                  <i class="fa-solid fa-calendar-check text-sky-400"></i> Appointment / Open Day Dihadiri
+                </td>
+                <td class="py-3.5 px-4 font-mono-num font-bold text-sky-400">10 &ndash; 14 dihadiri</td>
+                <td class="py-3.5 px-4 font-mono-num">~60% dari qualified</td>
+                <td class="py-3.5 px-4 text-slate-300">65% &ndash; 70%</td>
+                <td class="py-3.5 px-4 font-mono-num font-bold text-emerald-400">60 &ndash; 65 klien hadir</td>
+                <td class="py-3.5 px-4 text-slate-300">Terapkan deposit komitmen RM50 (dipulangkan semasa hadir). Hadkan slot kepada 25 pemilik rumah sahaja setiap sesi.</td>
+              </tr>
+              <tr class="bg-emerald-500/10 hover:bg-emerald-500/15 transition-colors">
+                <td class="py-3.5 px-4 font-extrabold text-emerald-300 flex items-center gap-2">
+                  <i class="fa-solid fa-trophy text-emerald-400"></i> Confirm Deals (Design & BQ RM5k)
+                </td>
+                <td class="py-3.5 px-4 font-mono-num font-bold text-slate-400">2 &ndash; 4 deals</td>
+                <td class="py-3.5 px-4 font-mono-num text-slate-400">~25% &ndash; 30% closing</td>
+                <td class="py-3.5 px-4 text-emerald-400 font-medium">45% &ndash; 50% di Open Day</td>
+                <td class="py-3.5 px-4 font-mono-num font-extrabold text-emerald-400">30 DEALS (RM 150,000)</td>
+                <td class="py-3.5 px-4 text-emerald-300 font-semibold">Tawaran rebat 100% yuran RM5,000 jika bina bersama Godeco menjadi pencetus penutup jualan utama.</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- ========================================== -->
+    <!-- TAB 2: AUDIT DATA SEBENAR OKTOBER          -->
+    <!-- ========================================== -->
+    <div id="content-octoberdata" class="hidden space-y-6">
+      
+      <div class="glass-surface p-6 rounded-2xl border-l-4 border-emerald-400">
+        <div class="flex flex-col md:flex-row justify-between items-start md:items-center gap-3 mb-6">
+          <div>
+            <div class="flex items-center gap-2">
+              <span class="w-3 h-3 rounded-full bg-emerald-400 animate-pulse"></span>
+              <h2 class="text-base font-extrabold text-white tracking-tight uppercase flex items-center gap-2">
+                <i class="fa-solid fa-table-cells text-emerald-400"></i>
+                Audit Data Sebenar Pendaftaran Pemasaran Godeco (1–19 Oktober 2026)
+              </h2>
+            </div>
+            <p class="text-xs text-slate-400 mt-1">Pecahan prestasi tepat antara Kempen Bulanan (Monthly Campaign) dan Kempen Pendaftaran Open Day.</p>
+          </div>
+          <span class="px-3 py-1 rounded-full text-xs font-mono-num bg-emerald-500/10 text-emerald-300 border border-emerald-500/30">Total: RM 6,813.09 &bull; 201 Leads</span>
+        </div>
+
+        <div class="space-y-6">
+          
+          <!-- Monthly Campaign -->
+          <div class="bg-slate-900/80 p-5 rounded-xl border border-slate-800">
+            <div class="flex justify-between items-center mb-3">
+              <h3 class="font-extrabold text-white text-xs uppercase tracking-wider flex items-center gap-2">
+                <i class="fa-solid fa-calendar-days text-sky-400"></i>
+                1. Monthly Campaign (Lead Generation — Meta Ads)
+              </h3>
+              <span class="text-xs text-slate-400 font-mono-num">Total Spend: RM 3,416.05 &bull; 113 Leads</span>
+            </div>
+
+            <div class="overflow-x-auto">
+              <table class="w-full text-left text-xs text-slate-300">
+                <thead class="bg-slate-950 text-slate-400 font-bold uppercase tracking-wider border-b border-slate-800">
+                  <tr>
+                    <th class="py-2.5 px-3">Tarikh</th>
+                    <th class="py-2.5 px-3">Belanja (RM)</th>
+                    <th class="py-2.5 px-3">Leads</th>
+                    <th class="py-2.5 px-3">Location Qual</th>
+                    <th class="py-2.5 px-3">Location Unqual</th>
+                    <th class="py-2.5 px-3">Budget Qual</th>
+                    <th class="py-2.5 px-3">Budget Unqual</th>
+                    <th class="py-2.5 px-3">CPL (RM)</th>
+                    <th class="py-2.5 px-3">CPLQ (RM)</th>
+                    <th class="py-2.5 px-3">Diagnosis Prestasi</th>
+                  </tr>
+                </thead>
+                <tbody class="divide-y divide-slate-800/60 font-mono-num">
+                  <tr class="hover:bg-slate-800/40">
+                    <td class="py-3 px-3 font-bold text-white">1–13 Okt</td>
+                    <td class="py-3 px-3">RM 2,338.32</td>
+                    <td class="py-3 px-3">66</td>
+                    <td class="py-3 px-3 text-emerald-400">6</td>
+                    <td class="py-3 px-3 text-rose-400 font-bold">15</td>
+                    <td class="py-3 px-3 text-amber-400 font-bold">2</td>
+                    <td class="py-3 px-3 text-rose-400">14</td>
+                    <td class="py-3 px-3">RM 35.43</td>
+                    <td class="py-3 px-3 text-rose-400 font-bold">RM 1,169.16</td>
+                    <td class="py-3 px-3 font-sans text-rose-300 text-[11px]">Kritikal: 15 leads luar kawasan + hanya 2 budget-qual. CPLQ melampau tinggi!</td>
+                  </tr>
+                  <tr class="bg-emerald-500/5 hover:bg-emerald-500/10">
+                    <td class="py-3 px-3 font-bold text-emerald-300">14–19 Okt</td>
+                    <td class="py-3 px-3">RM 1,077.73</td>
+                    <td class="py-3 px-3">47</td>
+                    <td class="py-3 px-3 text-emerald-400 font-bold">15</td>
+                    <td class="py-3 px-3 text-emerald-400 font-bold">0 (&check;)</td>
+                    <td class="py-3 px-3 text-emerald-400 font-bold">5</td>
+                    <td class="py-3 px-3 text-slate-400">10</td>
+                    <td class="py-3 px-3 text-emerald-400">RM 22.93</td>
+                    <td class="py-3 px-3 text-emerald-400 font-bold">RM 215.55</td>
+                    <td class="py-3 px-3 font-sans text-emerald-300 text-[11px]">Peningkatan ketara! CPL turun 35%, CPLQ jimat 81%, tiada lagi leads luar Lembah Klang.</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+
+          <!-- Open Day Campaign -->
+          <div class="bg-slate-900/80 p-5 rounded-xl border border-slate-800">
+            <div class="flex justify-between items-center mb-3">
+              <h3 class="font-extrabold text-white text-xs uppercase tracking-wider flex items-center gap-2">
+                <i class="fa-solid fa-door-open text-purple-400"></i>
+                2. Open Day Campaign (Lead Generation — Meta Ads)
+              </h3>
+              <span class="text-xs text-slate-400 font-mono-num">Total Spend: RM 3,397.04 &bull; 88 Leads &bull; 10 Qualified</span>
+            </div>
+
+            <div class="overflow-x-auto">
+              <table class="w-full text-left text-xs text-slate-300">
+                <thead class="bg-slate-950 text-slate-400 font-bold uppercase tracking-wider border-b border-slate-800">
+                  <tr>
+                    <th class="py-2.5 px-3">Tarikh</th>
+                    <th class="py-2.5 px-3">Belanja (RM)</th>
+                    <th class="py-2.5 px-3">Leads</th>
+                    <th class="py-2.5 px-3">Location Qual</th>
+                    <th class="py-2.5 px-3">Location Unqual</th>
+                    <th class="py-2.5 px-3">Qualified (General)</th>
+                    <th class="py-2.5 px-3">Budget Unqual</th>
+                    <th class="py-2.5 px-3">CPL (RM)</th>
+                    <th class="py-2.5 px-3">CPLQ (RM)</th>
+                    <th class="py-2.5 px-3">Diagnosis Prestasi</th>
+                  </tr>
+                </thead>
+                <tbody class="divide-y divide-slate-800/60 font-mono-num">
+                  <tr class="hover:bg-slate-800/40">
+                    <td class="py-3 px-3 font-bold text-white">1–13 Okt</td>
+                    <td class="py-3 px-3">RM 2,249.80</td>
+                    <td class="py-3 px-3">61</td>
+                    <td class="py-3 px-3 text-slate-400">-</td>
+                    <td class="py-3 px-3 text-rose-400 font-bold">7</td>
+                    <td class="py-3 px-3 text-amber-400 font-bold">5</td>
+                    <td class="py-3 px-3 text-rose-400">2</td>
+                    <td class="py-3 px-3">RM 36.88</td>
+                    <td class="py-3 px-3 text-amber-400 font-bold">RM 449.96</td>
+                    <td class="py-3 px-3 font-sans text-slate-300 text-[11px]">7 pendaftaran luar kawasan. CPLQ RM449.96.</td>
+                  </tr>
+                  <tr class="bg-emerald-500/5 hover:bg-emerald-500/10">
+                    <td class="py-3 px-3 font-bold text-emerald-300">14–19 Okt</td>
+                    <td class="py-3 px-3">RM 1,147.24</td>
+                    <td class="py-3 px-3">27</td>
+                    <td class="py-3 px-3 text-emerald-400 font-bold">2</td>
+                    <td class="py-3 px-3 text-emerald-400 font-bold">0 (&check;)</td>
+                    <td class="py-3 px-3 text-emerald-400 font-bold">5</td>
+                    <td class="py-3 px-3 text-slate-400">-</td>
+                    <td class="py-3 px-3">RM 42.49</td>
+                    <td class="py-3 px-3 text-emerald-400 font-bold">RM 229.45</td>
+                    <td class="py-3 px-3 font-sans text-emerald-300 text-[11px]">CPLQ turun mendadak kepada RM229.45. Tiada pembaziran lokasi!</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="mt-6 grid grid-cols-1 md:grid-cols-3 gap-4 text-xs">
+          <div class="p-4 bg-slate-900/90 rounded-xl border border-slate-800">
+            <span class="text-emerald-400 font-bold uppercase tracking-wider block mb-1">1. Geofencing Berjaya Dibaiki</span>
+            <p class="text-slate-300 leading-relaxed">
+              Pada 1–13 Okt, terdapat <strong>22 leads luar kawasan</strong> (15 Monthly + 7 Open Day). Pada 14–19 Okt, angka ini jatuh kepada <strong>0 leads luar kawasan</strong>. Pembaziran lokasi dihentikan sepenuhnya!
+            </p>
+          </div>
+          <div class="p-4 bg-slate-900/90 rounded-xl border border-slate-800">
+            <span class="text-sky-400 font-bold uppercase tracking-wider block mb-1">2. CPLQ Turun 81%</span>
+            <p class="text-slate-300 leading-relaxed">
+              Kos per Qualified Lead (CPLQ) pada kempen Monthly jatuh daripada <strong>RM 1,169.16</strong> kepada <strong>RM 215.55</strong>. Penapisan kualiti mula berfungsi jauh lebih cekap.
+            </p>
+          </div>
+          <div class="p-4 bg-slate-900/90 rounded-xl border border-slate-800">
+            <span class="text-amber-400 font-bold uppercase tracking-wider block mb-1">3. Jurang Seterusnya: Bajet &ge; RM150k</span>
+            <p class="text-slate-300 leading-relaxed">
+              Walaupun lokasi tepat, 10 daripada 15 leads fasa kedua masih 'Budget Unqualified' (bajet &lt; RM150k). Diperlukan pelarasan pada copy dan tawaran deposit untuk menapis golongan surveyor.
+            </p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- ========================================== -->
+    <!-- TAB 3: FUNNEL BENCHMARKS & 30 DEALS MATH   -->
+    <!-- ========================================== -->
+    <div id="content-funnelbenchmarks" class="hidden space-y-6">
+      
+      <div class="glass-surface p-6 rounded-2xl border border-blue-500/40 shadow-2xl">
+        <div class="flex flex-col md:flex-row justify-between items-start md:items-center gap-2 mb-4">
+          <div>
+            <h3 class="text-base font-extrabold text-white uppercase tracking-wider flex items-center gap-2">
+              <i class="fa-solid fa-calculator text-blue-400"></i>
+              Matematik Songsang: Berapa Leads & Bajet Diperlukan Untuk 30 Deals?
+            </h3>
+            <p class="text-xs text-slate-400">Kira unjuran tepat corong jualan daripada sasaran akhir (30 Client Confirm Job &times; RM5k = RM150,000) hingga ke bajet Meta Ads.</p>
+          </div>
+          <span class="text-[11px] font-mono-num text-emerald-400 bg-emerald-500/10 px-2.5 py-1 rounded-md border border-emerald-500/30">Target: 30 Deals @ RM5k</span>
+        </div>
+
+        <!-- Funnel Step-by-Step Visualization -->
+        <div class="grid grid-cols-1 md:grid-cols-5 gap-3 text-center my-6">
+          
+          <div class="p-4 bg-slate-900/80 border border-slate-800 rounded-xl relative group hover:border-blue-500 transition-all">
+            <span class="text-[10px] text-slate-400 uppercase font-bold tracking-wider block mb-1">1. Raw Leads Masuk</span>
+            <div class="text-xl font-black text-white font-mono-num" id="calc-raw-leads">320 Leads</div>
+            <span class="text-[10px] text-slate-400 block mt-1" id="calc-cpl-display">CPL Est: ~RM 25.00</span>
+            <div class="mt-2 text-[10px] bg-slate-800 py-0.5 rounded text-blue-300">Model Seimbang</div>
+          </div>
+
+          <div class="p-4 bg-slate-900/80 border border-slate-800 rounded-xl relative group hover:border-amber-500 transition-all">
+            <span class="text-[10px] text-slate-400 uppercase font-bold tracking-wider block mb-1">2. Qualified Leads (30%)</span>
+            <div class="text-xl font-black text-amber-400 font-mono-num" id="calc-qual-leads">96 Leads</div>
+            <span class="text-[10px] text-slate-400 block mt-1">Bajet &ge; RM150k + Sah Lembah Klang</span>
+            <div class="mt-2 text-[10px] bg-amber-500/10 py-0.5 rounded text-amber-300 font-semibold">&uarr; CPLQ: ~RM 83</div>
+          </div>
+
+          <div class="p-4 bg-slate-900/80 border border-slate-800 rounded-xl relative group hover:border-sky-500 transition-all">
+            <span class="text-[10px] text-slate-400 uppercase font-bold tracking-wider block mb-1">3. Appt & Open Day (65%)</span>
+            <div class="text-xl font-black text-sky-400 font-mono-num" id="calc-appt-leads">62 Klien Hadir</div>
+            <span class="text-[10px] text-slate-400 block mt-1">Deposit RM50 Dibayar</span>
+            <div class="mt-2 text-[10px] bg-sky-500/10 py-0.5 rounded text-sky-300">Showroom / 1-on-1</div>
+          </div>
+
+          <div class="p-4 bg-slate-900/80 border border-slate-800 rounded-xl relative group hover:border-emerald-500 transition-all">
+            <span class="text-[10px] text-slate-400 uppercase font-bold tracking-wider block mb-1">4. Closing Rate (48%)</span>
+            <div class="text-xl font-black text-emerald-400 font-mono-num" id="calc-close-deals">30 Confirm Deals</div>
+            <span class="text-[10px] text-slate-400 block mt-1">Sign Agreement RM 5,000</span>
+            <div class="mt-2 text-[10px] bg-emerald-500/10 py-0.5 rounded text-emerald-300 font-bold">&check; RM 150,000 SALES</div>
+          </div>
+
+          <div class="p-4 bg-blue-600/10 border border-blue-500/30 rounded-xl flex flex-col justify-center">
+            <span class="text-[10px] text-blue-300 uppercase font-bold tracking-wider block mb-1">Hasil & Bajet Iklan</span>
+            <div class="text-xl font-black text-white font-mono-num" id="calc-revenue-display">RM 150,000</div>
+            <span class="text-[11px] text-emerald-400 font-mono-num font-semibold mt-1" id="calc-budget-display">Bajet: ~RM 8,000</span>
+            <span class="text-[10px] text-slate-400" id="calc-roas-display">ROAS Front-End: ~18.7x</span>
+          </div>
+
+        </div>
+
+        <!-- Interactive Simulation Controller -->
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6 bg-slate-900/90 p-5 rounded-xl border border-slate-800 text-xs">
+          <div>
+            <label class="block font-semibold text-slate-300 mb-2">Pilih Sasaran Jumlah Confirm Deals (Design & BQ):</label>
+            <select id="sim-target-deals" onchange="calculateReverseFunnel()" class="w-full bg-slate-800 border border-slate-700 text-white rounded-xl px-3 py-2 text-xs focus:outline-none focus:border-blue-500 font-mono-num">
+              <option value="15">15 Deals (Hasil: RM 75,000)</option>
+              <option value="20">20 Deals (Hasil: RM 100,000)</option>
+              <option value="30" selected>30 Deals (Sasaran: RM 150,000 / Bulan)</option>
+              <option value="40">40 Deals (Hasil: RM 200,000)</option>
+            </select>
+          </div>
+
+          <div>
+            <label class="block font-semibold text-slate-300 mb-2">Peringkat Penapisan Harga & CPL Balancing:</label>
+            <select id="sim-filter-model" onchange="calculateReverseFunnel()" class="w-full bg-slate-800 border border-slate-700 text-white rounded-xl px-3 py-2 text-xs focus:outline-none focus:border-blue-500">
+              <option value="unfiltered">1. Tanpa Penapis (Model Awal Okt: 8.5% Qual | CPL ~RM35)</option>
+              <option value="filtered" selected>2. Penapis Seimbang + Deposit RM50 (30% Qual | CPL ~RM25)</option>
+              <option value="overfiltered">3. Terlebih Tapis (Hard Cut RM5k Tunai di Depan: CPL ~RM65+)</option>
+              <option value="openday">4. Kempen Khusus Open Day Dwi-Mingguan (CPL ~RM42 | 40% Qual)</option>
+            </select>
+          </div>
+
+          <div class="bg-slate-800/80 p-3.5 rounded-xl border border-slate-700 flex flex-col justify-center">
+            <span class="text-slate-400 block mb-0.5">Anggaran Bajet Iklan Bulanan Diperlukan:</span>
+            <span id="calc-budget-needed" class="text-xl font-black text-amber-400 font-mono-num">RM 8,000</span>
+            <span id="calc-sales-capacity" class="text-[11px] text-slate-300 mt-1">Beban Jualan: ~10 leads/hari (~2 leads/staf jika 5 jururunding)</span>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+
+    <!-- ========================================== -->
+    <!-- TAB 4: AUDIENCE HIJACKING & RETARGETING    -->
+    <!-- ========================================== -->
+    <div id="content-audiencehijack" class="hidden space-y-6">
+      
+      <div class="glass-surface p-6 rounded-2xl border-l-4 border-sky-400">
+        <div class="flex flex-col md:flex-row justify-between items-start md:items-center gap-3 mb-6">
+          <div>
+            <div class="flex items-center gap-2">
+              <span class="w-3 h-3 rounded-full bg-sky-400 animate-pulse"></span>
+              <h2 class="text-base font-extrabold text-white tracking-tight uppercase flex items-center gap-2">
+                <i class="fa-solid fa-bullseye text-sky-400 text-lg"></i>
+                Strategi Tawanan Audiens Pesaing & Retargeting Berkualiti Tinggi
+              </h2>
+            </div>
+            <p class="text-xs text-slate-400 mt-1">Bagaimana memintas dan menarik pengikut akaun ID terkenal seperti House Tour Malaysia, Filla Studio, Malaysia Homie, Koocester Homes, dan Hidayah | Floor Plan Audit.</p>
+          </div>
+          <span class="px-3 py-1 rounded-full text-xs font-mono-num bg-sky-500/10 text-sky-300 border border-sky-500/30">High-Intent Traffic</span>
+        </div>
+
+        <!-- 5 Target Competitor Handles Analysis -->
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-3 mb-6">
+          <div class="p-3.5 bg-slate-900/80 border border-slate-800 rounded-xl">
+            <span class="text-[10px] text-sky-400 uppercase font-bold block mb-1">House Tour Malaysia</span>
+            <p class="text-xs text-slate-300 font-semibold">Penonton Rumah Idaman</p>
+            <span class="text-[11px] text-slate-400 block mt-1">Gemar melihat transformasi landed & kondo mewah. Sedia melabur jika rekaan kena selera.</span>
+          </div>
+          <div class="p-3.5 bg-slate-900/80 border border-slate-800 rounded-xl">
+            <span class="text-[10px] text-purple-400 uppercase font-bold block mb-1">Filla Studio</span>
+            <p class="text-xs text-slate-300 font-semibold">Pencinta Estetika Moden</p>
+            <span class="text-[11px] text-slate-400 block mt-1">Audiens mementingkan kemasan premium, wabi-sabi, japandi & bahan berkualiti.</span>
+          </div>
+          <div class="p-3.5 bg-slate-900/80 border border-slate-800 rounded-xl">
+            <span class="text-[10px] text-emerald-400 uppercase font-bold block mb-1">Malaysia Homie</span>
+            <p class="text-xs text-slate-300 font-semibold">Pemilik Rumah Baharu</p>
+            <span class="text-[11px] text-slate-400 block mt-1">Golongan baru dapat kunci (VP). Mencari kontraktor berwibawa untuk renovasi segera.</span>
+          </div>
+          <div class="p-3.5 bg-slate-900/80 border border-slate-800 rounded-xl">
+            <span class="text-[10px] text-amber-400 uppercase font-bold block mb-1">Koocester Homes</span>
+            <p class="text-xs text-slate-300 font-semibold">Praktikaliti & Built-in</p>
+            <span class="text-[11px] text-slate-400 block mt-1">Fokus kabinet dapur, ruang stor, dan pengurusan ruang yang kemas dan jimat bajet.</span>
+          </div>
+          <div class="p-3.5 bg-slate-900/80 border border-slate-800 rounded-xl">
+            <span class="text-[10px] text-rose-400 uppercase font-bold block mb-1">Hidayah Floor Plan</span>
+            <p class="text-xs text-slate-300 font-semibold">Struktur & Susun Atur</p>
+            <span class="text-[11px] text-slate-400 block mt-1">Audiens sangat teknikal! Mahu pelan lantai dioptimumkan sebelum ketuk dinding.</span>
+          </div>
+        </div>
+
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-6 text-xs text-slate-300 leading-relaxed">
+          
+          <!-- Technical Setup -->
+          <div class="p-5 bg-slate-900/70 border border-slate-800 rounded-xl space-y-3">
+            <h4 class="font-bold text-white text-xs uppercase tracking-wider flex items-center gap-2">
+              <i class="fa-solid fa-code text-sky-400"></i>
+              Kaedah Teknikal Memintas Audiens Mereka (Meta Ads Manager)
+            </h4>
+            <div class="space-y-2.5">
+              <p>
+                <strong>1. Irisan Minat Bersilang (Intersected Detailed Targeting):</strong> Gunakan gabungan <em>AND Rule</em> di peringkat Ad Set untuk menembusi prospek berkuasa beli:
+              </p>
+              <div class="p-3 bg-slate-950 border border-slate-800 rounded-lg font-mono text-[11px] text-slate-300">
+                [Minat: Interior Design OR Home Renovation OR Architecture]<br>
+                <strong>AND</strong> [Minat: Luxury Real Estate OR Condominium OR Landed Property]<br>
+                <strong>AND</strong> [Gelagat: Engaged Shoppers OR Recently Moved]<br>
+                <strong>AND</strong> [Lokasi: Lembah Klang radius 25km sahaja]
+              </div>
+              <p>
+                <strong>2. Custom Audience Video 50%+ & Instagram Engagers:</strong> Cipta Custom Audience daripada sesiapa yang telah menonton video Facebook/Instagram Godeco melepasi 50% atau melawat profil IG Godeco dalam 90 hari lepas. Ini adalah audiens panas yang sedang membandingkan Godeco dengan firma lain.
+              </p>
+              <p>
+                <strong>3. 1% &ndash; 2% Lookalike dari Closed Clients:</strong> Muat naik senarai nombor telefon dan emel pelanggan lepas yang telah membayar &ge; RM5,000 dan bina Lookalike Audience di Lembah Klang.
+              </p>
+            </div>
+          </div>
+
+          <!-- Creative Hijack Hooks -->
+          <div class="p-5 bg-slate-900/70 border border-slate-800 rounded-xl space-y-3">
+            <h4 class="font-bold text-white text-xs uppercase tracking-wider flex items-center gap-2">
+              <i class="fa-solid fa-wand-magic-sparkles text-amber-400"></i>
+              Sudut Kreatif Memancing Crowd Pesaing (Angle Hijacking)
+            </h4>
+            <div class="space-y-2.5">
+              <div class="p-3 bg-slate-950 border border-slate-800 rounded-lg">
+                <strong class="text-sky-300 block mb-1">Hook Format "Floor Plan Audit" (Menarik audiens Hidayah & Koocester):</strong>
+                <em>"Sebelum anda tiru reka bentuk House Tour yang cantik tapi tak praktikal... biar arkitek Godeco semak susun atur pelan lantai anda dulu. Bawa pelan anda ke Open Day Sabtu ini."</em>
+              </div>
+              <div class="p-3 bg-slate-950 border border-slate-800 rounded-lg">
+                <strong class="text-amber-300 block mb-1">Hook Format "Reality vs Aesthetic" (Menarik audiens Filla & Malaysia Homie):</strong>
+                <em>"Ramai ingat bajet RM150k boleh dapat semua yang nampak di media sosial. Di Godeco, kami dedahkan pecahan BQ sebenar item demi item supaya anda tahu ke mana setiap sen dibelanjakan sebelum ikat sebarang kontrak."</em>
+              </div>
+              <div class="p-3 bg-slate-950 border border-slate-800 rounded-lg">
+                <strong class="text-emerald-300 block mb-1">Pancingan Hadir Open Day:</strong>
+                <em>"Dapatkan Sesi Konsultasi & Audit Pelan Lantai 1-on-1 bersama Ketua Pereka Bentuk bernilai RM300 secara PERCUMA (Deposit RM50 dipulangkan penuh semasa pendaftaran hadir)."</em>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+    <!-- ========================================== -->
+    <!-- TAB 5: BEDAH SIASAT VIDEO IKLAN PEMENANG  -->
+    <!-- ========================================== -->
+    <div id="content-winningad" class="hidden space-y-6">
+      
+      <div class="glass-surface p-6 rounded-2xl border-l-4 border-amber-400">
+        <div class="flex flex-col md:flex-row justify-between items-start md:items-center gap-3 mb-6">
+          <div>
+            <div class="flex items-center gap-2">
+              <span class="w-3 h-3 rounded-full bg-amber-400 animate-pulse"></span>
+              <h2 class="text-base font-extrabold text-white tracking-tight uppercase flex items-center gap-2">
+                <i class="fa-solid fa-trophy text-amber-400 text-lg"></i>
+                Bedah Siasat Video Iklan Pemenang Godeco Services
+              </h2>
+            </div>
+            <p class="text-xs text-slate-400 mt-1">Analisis mendalam mengapa video rujukan (<a href="https://www.facebook.com/story.php?story_fbid=1965470158172126&id=100057468668520" target="_blank" rel="noopener noreferrer" class="text-blue-400 underline hover:text-blue-300">fb.com/story 1965470158172126</a>) menghasilkan sebahagian besar qualified leads semasa.</p>
+          </div>
+          <span class="px-3 py-1 rounded-full text-xs font-mono-num bg-amber-500/10 text-amber-300 border border-amber-500/30">Top Converting Asset</span>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-4 mb-6">
+          <div class="p-4 bg-slate-900/80 border border-slate-800 rounded-xl">
+            <span class="text-[10px] text-slate-400 uppercase font-bold tracking-wider block mb-1">1. Keaslian Di Tapak Bina (Real Site Walkthrough)</span>
+            <div class="text-lg font-bold text-white mb-1">Bukan Sekadar 3D Render Khayalan</div>
+            <p class="text-xs text-slate-400">Video menunjukkan keadaan tapak sebenar yang sedang berhabuk, kerja pendawaian, dan pemasangan kabinet. Ini menghapuskan keraguan bahawa Godeco hanyalah firma rekaan atas kertas.</p>
+          </div>
+          <div class="p-4 bg-slate-900/80 border border-slate-800 rounded-xl">
+            <span class="text-[10px] text-slate-400 uppercase font-bold tracking-wider block mb-1">2. Wajah & Autoriti Pereka Bentuk</span>
+            <div class="text-lg font-bold text-emerald-400 mb-1">Membina Kepercayaan Segera</div>
+            <p class="text-xs text-slate-400">Pereka bentuk bercakap terus ke kamera, menerangkan cabaran ruang, pemilihan material, dan penyelesaian masalah struktur. Pelanggan T20 mempercayai pakar, bukan poster promosi diskaun.</p>
+          </div>
+          <div class="p-4 bg-slate-900/80 border border-slate-800 rounded-xl">
+            <span class="text-[10px] text-slate-400 uppercase font-bold tracking-wider block mb-1">3. Realisme Kos & Transparensi BQ</span>
+            <div class="text-lg font-bold text-sky-400 mb-1">Menapis Keluar Pemburu Harga Murah</div>
+            <p class="text-xs text-slate-400">Video ini secara jujur membincangkan kualiti vs harga. Prospek yang menonton sedar bahawa kemasan sebegini memerlukan bajet &ge; RM150,000, sekaligus menyingkirkan penyewa dan peminat harga kontraktor murah.</p>
+          </div>
+        </div>
+
+        <div class="p-5 bg-slate-900/70 border border-slate-800 rounded-xl text-xs text-slate-300 space-y-3">
+          <h4 class="font-bold text-white text-xs uppercase tracking-wider flex items-center gap-2">
+            <i class="fa-solid fa-copy text-amber-400"></i>
+            Pelan Penggandaan (Replication Playbook): Hasilkan 4 Variasi Tambahan Minggu Depan
+          </h4>
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+            <div class="p-3.5 bg-slate-950 border border-slate-800 rounded-lg">
+              <strong class="text-amber-300 block mb-1">Variasi A: "Bedah Siasat Pelan Lantai Condo Mewah"</strong>
+              <p class="text-slate-400">Bawa pelan lantai kondo (cth: 1,500 sqft) di tapak projek, tunjukkan dinding yang dipecahkan dan bagaimana susun atur baharu menjimatkan RM30,000 kos kerja basah.</p>
+            </div>
+            <div class="p-3.5 bg-slate-950 border border-slate-800 rounded-lg">
+              <strong class="text-sky-300 block mb-1">Variasi B: "Perbezaan Material RM50k vs RM150k"</strong>
+              <p class="text-slate-400">Tunjukkan perbezaan konkrit antara melamine murah vs nyatoh/quartz/sintered stone di tapak binaan. Didik pelanggan mengapa kualiti berharga ada nilainya.</p>
+            </div>
+            <div class="p-3.5 bg-slate-950 border border-slate-800 rounded-lg">
+              <strong class="text-emerald-300 block mb-1">Variasi C: "Kisah Benar Variation Order (VO) Kontraktor"</strong>
+              <p class="text-slate-400">Ceritakan kisah bagaimana pemilik rumah terkena tuntutan tambahan RM40k kerana tiada dokumen BQ terperinci, dan bagaimana BQ RM5k Godeco menyelamatkan mereka.</p>
+            </div>
+            <div class="p-3.5 bg-slate-950 border border-slate-800 rounded-lg">
+              <strong class="text-purple-300 block mb-1">Variasi D: "Walkthrough Jemputan Terhad Open Day Showroom"</strong>
+              <p class="text-slate-400">Rakam video santai di showroom menjemput 25 pemilik rumah yang baru dapat kunci untuk menghadiri sesi konsultasi 1-on-1 percuma minggu ini.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- ========================================== -->
+    <!-- TAB 6: SALES OBJECTIONS & DEPOSIT OFFER   -->
+    <!-- ========================================== -->
+    <div id="content-salesobjections" class="hidden space-y-6">
+      
+      <!-- New Offer Framing: RM300 Consultation FREE + RM50 Deposit -->
+      <div class="glass-surface p-6 rounded-2xl border-l-4 border-emerald-500">
+        <div class="flex flex-col md:flex-row justify-between items-start md:items-center gap-3 mb-4">
+          <div>
+            <span class="px-2.5 py-0.5 rounded text-[10px] bg-emerald-500/20 text-emerald-300 font-bold uppercase font-mono-num">Strategi Tawaran Baharu</span>
+            <h3 class="text-base font-extrabold text-white uppercase tracking-wider mt-1">
+              Peralihan Tawaran: Sesi Konsultasi 1-on-1 Bernilai RM300 PERCUMA (Deposit RM50 Dipulangkan)
+            </h3>
+            <p class="text-xs text-slate-400 mt-1">Daripada terus memaksa prospek komited RM5,000 tunai di borang, kunci kehadiran fizikal dengan yuran komitmen kecil yang boleh dipulangkan (*Refundable Commitment Deposit*).</p>
+          </div>
+          <span class="text-xs font-mono-num text-emerald-400 bg-emerald-500/10 px-3 py-1.5 rounded-lg border border-emerald-500/30">Kehadiran &ge; 85%</span>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-4 text-xs text-slate-300 mt-4">
+          <div class="p-4 bg-slate-900/80 rounded-xl border border-slate-800">
+            <strong class="text-emerald-300 block mb-1">1. Nilai Yang Ditawarkan</strong>
+            <p class="text-slate-400"><em>"Sesi Semakan Floor Plan & Kajian Anggaran Bajet Kasar 1-on-1 selama 45 minit bersama Principal Designer kami (Bernilai RM300) kini dibuka secara PERCUMA."</em></p>
+          </div>
+          <div class="p-4 bg-slate-900/80 rounded-xl border border-slate-800">
+            <strong class="text-amber-300 block mb-1">2. Peranan Deposit RM50</strong>
+            <p class="text-slate-400">Bukan bayaran! Ia adalah <em>Seat Commitment Deposit</em> untuk mengelakkan pembaziran masa designer: <em>"Deposit RM50 dipulangkan 100% serta-merta sebaik sahaja anda hadir ke sesi temujanji / Open Day."</em></p>
+          </div>
+          <div class="p-4 bg-slate-900/80 rounded-xl border border-slate-800">
+            <strong class="text-sky-300 block mb-1">3. Jambatan Ke Pakej RM5,000</strong>
+            <p class="text-slate-400">Semasa sesi bersemuka 45 minit berlangsung, designer membentangkan draf susun atur dan menjelaskan: jika mereka mahu lukisan pembinaan 3D penuh dan dokumen BQ tender, yuran adalah RM5,000 (rebat 100% jika bina bersama Godeco).</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Objections & Rebuttals Matrix -->
+      <div class="grid grid-cols-1 lg:grid-cols-2 gap-6">
+        
+        <!-- Top 5 Rejections for Open Day -->
+        <div class="glass-surface p-6 rounded-2xl">
+          <h3 class="text-sm font-bold text-white uppercase tracking-wider mb-2 flex items-center gap-2">
+            <i class="fa-solid fa-ban text-rose-400"></i>
+            Top 5 Rejection Kenapa Tak Datang Open Day & Skrip Patahkan
+          </h3>
+          <p class="text-xs text-slate-400 mb-4">Gunakan skrip WhatsApp ini untuk menyelamatkan prospek yang enggan hadir.</p>
+
+          <div class="space-y-3 text-xs">
+            <div class="p-3 bg-slate-900/70 border border-slate-800 rounded-xl">
+              <span class="text-rose-400 font-bold block mb-0.5">1. "Jauh / Luar Kawasan / Tak Sempat Datang"</span>
+              <p class="text-slate-300"><strong>Skrip Solusi:</strong> <em>"Faham Puan. Jika hujung minggu ni puan tak sempat datang ke showroom kami di Lembah Klang, kami ada sediakan 3 slot terhad untuk Sesi Virtual Zoom Konsultasi bersama arkitek kami. Boleh saya simpankan slot Zoom hari Ahad jam 3 petang?"</em></p>
+            </div>
+            <div class="p-3 bg-slate-900/70 border border-slate-800 rounded-xl">
+              <span class="text-rose-400 font-bold block mb-0.5">2. "Nak Survey Je Dulu / Belum Ada Bajet"</span>
+              <p class="text-slate-300"><strong>Skrip Solusi:</strong> <em>"Memang tepat sangat Puan datang Open Day ni untuk survey! Ramai pemilik rumah tersalah anggap survey di internet memadai, akhirnya kena mark-up kontraktor. Datang Open Day untuk faham dulu range kos sebenar item demi item tanpa sebarang ikatan kontrak."</em></p>
+            </div>
+            <div class="p-3 bg-slate-900/70 border border-slate-800 rounded-xl">
+              <span class="text-rose-400 font-bold block mb-0.5">3. "Nak Dapatkan Sebut Harga (Quotation) Terus Sekarang"</span>
+              <p class="text-slate-300"><strong>Skrip Solusi:</strong> <em>"Mana-mana kontraktor yang bagi harga terus tanpa tengok pelan lantai sebenarnya akan keluarkan banyak 'Variation Order' (tambah kos) di tengah jalan. Di Godeco, kami lindungi bajet puan dengan semak pelan dahulu secara percuma di Open Day."</em></p>
+            </div>
+            <div class="p-3 bg-slate-900/70 border border-slate-800 rounded-xl">
+              <span class="text-rose-400 font-bold block mb-0.5">4. "Belum Ready Nak Renovate Lagi / Kunci Rumah Lambat Lagi"</span>
+              <p class="text-slate-300"><strong>Skrip Solusi:</strong> <em>"Proses rekaan arkitek dan kelulusan permit mengambil masa 2 ke 3 bulan. Jika puan mula rancang sekarang, bila dapat kunci nanti kerja pembinaan boleh jalan terus tanpa buang bayaran sewa/faedah bank."</em></p>
+            </div>
+            <div class="p-3 bg-slate-900/70 border border-slate-800 rounded-xl">
+              <span class="text-rose-400 font-bold block mb-0.5">5. "Tak Berkelapangan Hari Tersebut"</span>
+              <p class="text-slate-300"><strong>Skrip Solusi:</strong> <em>"Tak mengapa Tuan. Kami simpankan jemputan VIP Tuan untuk slot awal minggu hadapan di showroom pada hari bekerja jam 6:00 petang. Sesuai untuk Tuan?"</em></p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Direct Contractor vs Godeco ID Firm Matrix -->
+        <div class="glass-surface p-6 rounded-2xl">
+          <h3 class="text-sm font-bold text-white uppercase tracking-wider mb-2 flex items-center gap-2">
+            <i class="fa-solid fa-scale-balanced text-amber-400"></i>
+            Top 5 Keraguan Kontraktor Terus vs Nilai Tambah Godeco
+          </h3>
+          <p class="text-xs text-slate-400 mb-4">Bagaimana meyakinkan prospek yang membandingkan Godeco dengan kontraktor biasa.</p>
+
+          <div class="space-y-3 text-xs">
+            <div class="p-3 bg-slate-900/70 border border-slate-800 rounded-xl">
+              <span class="text-amber-400 font-bold block mb-0.5">1. "Contractor Boleh Bagi Harga Terus, Godeco Kena Bayar Design Dulu"</span>
+              <p class="text-slate-300"><strong>Senjata Jawapan:</strong> Harga terus kontraktor adalah anggaran kasar. Bila mula pecah lantai, keluar caj tersembunyi berpuluh ribu. Di Godeco, pelan BQ kami adalah dokumen undang-undang yang mengikat harga siling supaya kos tidak melambung.</p>
+            </div>
+            <div class="p-3 bg-slate-900/70 border border-slate-800 rounded-xl">
+              <span class="text-amber-400 font-bold block mb-0.5">2. "Contractor Lagi Murah Berbanding ID Firm"</span>
+              <p class="text-slate-300"><strong>Senjata Jawapan:</strong> Kontraktor biasa tidak menyediakan penyelarasan 3D, pengurusan permit majlis, dan jadual kerja ketat. Kontraktor 'murah' sering lari atau lewat 6 bulan. Godeco menyediakan jaminan liabiliti dan waranti bertulis.</p>
+            </div>
+            <div class="p-3 bg-slate-900/70 border border-slate-800 rounded-xl">
+              <span class="text-emerald-400 font-bold block mb-0.5">3. Payment Term & Kemudahan Pembayaran</span>
+              <p class="text-slate-300"><strong>Senjata Jawapan:</strong> Godeco menggunakan sistem pembayaran berasaskan kemajuan kerja bertahap (*Progressive Billing 5 Peringkat*) yang disahkan jurutera tapak. Duit anda selamat dan tidak dilepaskan jika mutu tidak menepati spesifikasi.</p>
+            </div>
+            <div class="p-3 bg-slate-900/70 border border-slate-800 rounded-xl">
+              <span class="text-emerald-400 font-bold block mb-0.5">4. Timeline Projek & Workmanship</span>
+              <p class="text-slate-300"><strong>Senjata Jawapan:</strong> Jadual kerja berasaskan carta Gantt dengan penalti kelewatan (*Liquidated Damages*) jika Godeco gagal menyerahkan kunci mengikut tarikh perjanjian.</p>
+            </div>
+            <div class="p-3 bg-slate-900/70 border border-slate-800 rounded-xl">
+              <span class="text-emerald-400 font-bold block mb-0.5">5. Waranti Bertulis (Defects Liability Period)</span>
+              <p class="text-slate-300"><strong>Senjata Jawapan:</strong> Waranti kecacatan bahan dan kerja selama 12 hingga 24 bulan selepas serahan rumah.</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- 3 Kelebihan Utama Wajib Datang Open Day Weekend Depan -->
+      <div class="p-5 glass-surface-highlight rounded-2xl border border-emerald-500/30">
+        <h4 class="font-extrabold text-white text-xs uppercase tracking-wider mb-3 flex items-center gap-2">
+          <i class="fa-solid fa-gift text-emerald-400"></i>
+          3 Kelebihan Utama Kenapa Prospek Wajib Hadir Ke Open Day Godeco Hujung Minggu Ini:
+        </h4>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-4 text-xs">
+          <div class="p-4 bg-slate-900/80 rounded-xl border border-slate-800">
+            <span class="text-emerald-400 font-bold block mb-1">1. Sesi Konsultasi Bersemuka 1-on-1 (Lebih Jelas)</span>
+            <p class="text-slate-300">Berbincang secara terus dengan pereka bentuk profesional kami sambil melihat sampel material sebenar (bukan sekadar lukisan katalog).</p>
+          </div>
+          <div class="p-4 bg-slate-900/80 rounded-xl border border-slate-800">
+            <span class="text-sky-400 font-bold block mb-1">2. Faham Roadmap Lengkap Sebelum Renovasi</span>
+            <p class="text-slate-300">Dapatkan senarai semak langkah demi langkah: dari kelulusan majlis perbandaran, struktur, M&E hingga pemilihan kemasan bagi mengelakkan pembaziran ribuan ringgit.</p>
+          </div>
+          <div class="p-4 bg-slate-900/80 rounded-xl border border-slate-800">
+            <span class="text-amber-400 font-bold block mb-1">3. Promo Khas & Baucar Rebat Hari Acara Sahaja</span>
+            <p class="text-slate-300">Baucar kelengkapan pintar rumah, cabutan bertuah baucar rekaan sehingga RM3,000, dan terma pembayaran fleksibel eksklusif pendaftaran hari acara.</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- ========================================== -->
+    <!-- TAB 7: PLACEMENT & FORMAT ID               -->
+    <!-- ========================================== -->
+    <div id="content-placements" class="hidden space-y-6">
+      
+      <div class="glass-surface p-6 rounded-2xl">
+        <div class="flex flex-col md:flex-row justify-between items-start md:items-center gap-3 mb-6">
+          <div>
+            <h2 class="text-base font-extrabold text-white tracking-tight uppercase flex items-center gap-2">
+              <i class="fa-solid fa-layer-group text-blue-400"></i>
+              Analisis Ruang & Placement Efisien untuk ID & Build di Lembah Klang
+            </h2>
+            <p class="text-xs text-slate-400">Strategi penempatan ruang iklan Meta Ads yang menjana prospek berkualiti tinggi tanpa membazirkan kos bidaan.</p>
+          </div>
+          <span class="text-xs font-mono-num text-slate-300 bg-slate-900 border border-slate-800 px-3 py-1.5 rounded-lg">Fokus: Lembah Klang</span>
+        </div>
+
+        <div class="overflow-x-auto">
+          <table class="w-full text-left text-xs text-slate-300">
+            <thead class="bg-slate-900/90 text-slate-400 font-bold uppercase tracking-wider border-b border-slate-800">
+              <tr>
+                <th class="py-3 px-4 rounded-l-xl">Placement / Ruang</th>
+                <th class="py-3 px-4">Kesesuaian Format ID</th>
+                <th class="py-3 px-4">Sasaran CPL Bertapis</th>
+                <th class="py-3 px-4">Klasifikasi</th>
+                <th class="py-3 px-4 rounded-r-xl">Tindakan Godeco Services</th>
+              </tr>
+            </thead>
+            <tbody class="divide-y divide-slate-800/60">
+              <tr class="bg-emerald-500/5 hover:bg-emerald-500/10 transition-colors">
+                <td class="py-3.5 px-4 font-bold text-white flex items-center gap-2">
+                  <i class="fa-brands fa-instagram text-pink-400"></i> Instagram Reels (9:16)
+                </td>
+                <td class="py-3.5 px-4 text-slate-300">Video Walkthrough Tapak Projek & 3D Tour</td>
+                <td class="py-3.5 px-4 font-mono-num font-bold text-emerald-400">&le; RM 22.00</td>
+                <td class="py-3.5 px-4"><span class="px-2.5 py-1 bg-emerald-500/20 text-emerald-300 border border-emerald-500/40 rounded-full font-bold">🥇 WINNER</span></td>
+                <td class="py-3.5 px-4 text-slate-300">Peruntukkan 40% bajet iklan. Sasarkan pemilik kondo dan rumah teres moden di Lembah Klang.</td>
+              </tr>
+              <tr class="hover:bg-slate-800/30 transition-colors">
+                <td class="py-3.5 px-4 font-bold text-white flex items-center gap-2">
+                  <i class="fa-brands fa-facebook text-blue-400"></i> Facebook Reels (9:16)
+                </td>
+                <td class="py-3.5 px-4 text-slate-300">Jemputan Open Day Showroom & Autoriti Pereka</td>
+                <td class="py-3.5 px-4 font-mono-num font-bold text-emerald-400">&le; RM 25.00</td>
+                <td class="py-3.5 px-4"><span class="px-2.5 py-1 bg-blue-500/20 text-blue-300 rounded-full font-bold">⚡ ENJIN UTAMA</span></td>
+                <td class="py-3.5 px-4 text-slate-300">Kekalkan 30% bajet untuk menarik pemilik rumah matang dan semi-D keluarga di Selangor/KL.</td>
+              </tr>
+              <tr class="hover:bg-slate-800/30 transition-colors">
+                <td class="py-3.5 px-4 font-bold text-white flex items-center gap-2">
+                  <i class="fa-brands fa-facebook text-sky-400"></i> Facebook Feed & Carousel
+                </td>
+                <td class="py-3.5 px-4 text-slate-300">Slaid Transparensi BQ & Lukisan Arkitek</td>
+                <td class="py-3.5 px-4 font-mono-num font-bold text-amber-400">&le; RM 28.00</td>
+                <td class="py-3.5 px-4"><span class="px-2.5 py-1 bg-slate-800 text-slate-300 rounded-full font-semibold">EDUKASI</span></td>
+                <td class="py-3.5 px-4 text-slate-300">Paparkan sampel dokumen sebut harga item-by-item untuk meyakinkan pembeli berhati-hati.</td>
+              </tr>
+              <tr class="hover:bg-slate-800/30 transition-colors">
+                <td class="py-3.5 px-4 font-bold text-white flex items-center gap-2">
+                  <i class="fa-brands fa-facebook text-emerald-400"></i> Stories (FB & IG)
+                </td>
+                <td class="py-3.5 px-4 text-slate-300">Peringatan Jam Terakhir Pendaftaran Open Day</td>
+                <td class="py-3.5 px-4 font-mono-num font-bold text-sky-400">&le; RM 20.00</td>
+                <td class="py-3.5 px-4"><span class="px-2.5 py-1 bg-sky-500/20 text-sky-300 rounded-full font-semibold">URGENCY</span></td>
+                <td class="py-3.5 px-4 text-slate-300">Gunakan khusus pada hari Khamis–Jumaat untuk mengunci 25 slot temujanji hujung minggu.</td>
+              </tr>
+              <tr class="bg-rose-500/5 hover:bg-rose-500/10 transition-colors">
+                <td class="py-3.5 px-4 font-bold text-rose-300 flex items-center gap-2">
+                  <i class="fa-solid fa-cart-shopping text-rose-400"></i> Direct Purchase (Tanpa Borang/Konsultasi)
+                </td>
+                <td class="py-3.5 px-4 text-rose-300">Mengarahkan terus bayar servis ribuan ringgit</td>
+                <td class="py-3.5 px-4 font-mono-num font-bold text-rose-400">&gt; RM 300.00 ⚠️</td>
+                <td class="py-3.5 px-4"><span class="px-2.5 py-1 bg-rose-500/30 text-rose-300 rounded-full font-bold">❌ ELAKKAN</span></td>
+                <td class="py-3.5 px-4 text-rose-300">Jangan sekali-kali jual pakej binaan terus di iklan. Industri renovasi memerlukan sesi perundingan bersemuka dahulu.</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <div class="mt-6 grid grid-cols-1 md:grid-cols-3 gap-4 text-xs">
+          <div class="p-4 bg-slate-900/80 rounded-xl border border-slate-800">
+            <span class="text-sky-400 font-bold uppercase tracking-wider block mb-1">Peranti: Sasaran Pengguna iPhone (iOS)</span>
+            <p class="text-slate-300 leading-relaxed">
+              Pemilik hartanah bernilai &ge; RM600k di Lembah Klang didominasi oleh pengguna peranti iOS. Sasarkan penempatan ini untuk menapis profil kewangan T20 yang lebih kukuh.
+            </p>
+          </div>
+          <div class="p-4 bg-slate-900/80 rounded-xl border border-slate-800">
+            <span class="text-emerald-400 font-bold uppercase tracking-wider block mb-1">Demografi: Wanita Penggerak Keputusan</span>
+            <p class="text-slate-300 leading-relaxed">
+              Isteri dan wanita mencatatkan kadar klik (CTR) lebih tinggi dalam tema rekaan kabinet dapur dan ruang tamu. Sertakan hook visual yang menarik selera wanita dalam kempen utama.
+            </p>
+          </div>
+          <div class="p-4 bg-slate-900/80 rounded-xl border border-slate-800">
+            <span class="text-amber-400 font-bold uppercase tracking-wider block mb-1">Umur 35–44: Zon Sasaran Emas</span>
+            <p class="text-slate-300 leading-relaxed">
+              Golongan berumur 35 hingga 44 tahun mempunyai simpanan tunai yang cukup untuk melabur dalam pakej renovasi penuh &ge; RM150,000 berbanding golongan muda yang masih menyewa.
+            </p>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+
+    <!-- ========================================== -->
+    <!-- TAB 8: THREADS EXPLORATION                 -->
+    <!-- ========================================== -->
+    <div id="content-threads" class="hidden space-y-6">
+      
+      <div class="glass-surface p-6 rounded-2xl border-l-4 border-amber-400">
+        <div class="flex flex-col md:flex-row justify-between items-start md:items-center gap-3 mb-6">
+          <div>
+            <div class="flex items-center gap-2">
+              <span class="w-3 h-3 rounded-full bg-amber-400 animate-pulse"></span>
+              <h2 class="text-base font-extrabold text-white tracking-tight uppercase flex items-center gap-2">
+                <i class="fa-brands fa-threads text-amber-400 text-lg"></i>
+                Eksplorasi Platform Threads: Data Penanda Aras & Peluang Laut Biru
+              </h2>
+            </div>
+            <p class="text-xs text-slate-400 mt-1">Potensi meletakkan iklan Godeco Services di ruang Threads Feed untuk memburu pemilik kediaman T20 Lembah Klang.</p>
+          </div>
+          <span class="px-3 py-1 rounded-full text-xs font-mono-num bg-amber-500/10 text-amber-300 border border-amber-500/30">Ruang Iklan Baharu Meta</span>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-4 mb-6">
+          <div class="p-4 bg-slate-900/80 border border-slate-800 rounded-xl">
+            <span class="text-[10px] text-slate-400 uppercase font-bold tracking-wider block mb-1">Anggaran CPM Pasaran</span>
+            <div class="text-xl font-black text-emerald-400 font-mono-num">RM 14 &ndash; RM 28</div>
+            <p class="text-[11px] text-slate-400 mt-1">Kira-kira <strong>35% lebih rendah</strong> berbanding IG Feed (RM38.50) kerana persaingan bidaan iklan masih rendah.</p>
+          </div>
+          <div class="p-4 bg-slate-900/80 border border-slate-800 rounded-xl">
+            <span class="text-[10px] text-slate-400 uppercase font-bold tracking-wider block mb-1">Gelagat Demografi Threads</span>
+            <div class="text-xl font-black text-amber-400 font-mono-num">T20 & Urban M40</div>
+            <p class="text-[11px] text-slate-400 mt-1">Didominasi profesional bandar, peguam, jurutera, dan pemilik rumah kondo/landed di Damansara, Bangsar & Subang.</p>
+          </div>
+          <div class="p-4 bg-slate-900/80 border border-slate-800 rounded-xl">
+            <span class="text-[10px] text-blue-400 font-mono-num">Text + Single Photo</span>
+            <p class="text-[11px] text-slate-400 mt-1">Pengguna Threads lebih gemar membaca bebenang fakta, transparensi kos, dan bedah siasat sebut harga berbanding poster iklan biasa.</p>
+          </div>
+        </div>
+
+        <div class="p-5 bg-slate-900/70 border border-slate-800 rounded-xl text-xs text-slate-300 space-y-3">
+          <h4 class="font-bold text-white text-xs uppercase tracking-wider flex items-center gap-2">
+            <i class="fa-solid fa-pen-nib text-blue-400"></i>
+            Contoh Copywriting & Sudut Penceritaan Native Threads (Hook)
+          </h4>
+          <div class="p-3.5 bg-slate-950 border border-slate-800 rounded-xl font-mono text-[11px] text-slate-300 space-y-2">
+            <p class="text-amber-300">"Kisah benar pemilik semi-D di Kota Kemuning bajet RM200k kena mark-up sampai RM280k..."</p>
+            <p>Ramai pemilik rumah di Lembah Klang tergesa-gesa pilih kontraktor semata-mata sebab sebut harga percuma. Akhirnya di tengah pembinaan, keluar tuntutan 'variation order' puluhan ribu ringgit.</p>
+            <p>Di Godeco, kami sediakan Sesi Audit Pelan Lantai 1-on-1 bersama Arkitek secara PERCUMA (Deposit RM50 dipulangkan masa hadir). Kami bedah terus ke mana bajet anda pergi sebelum anda commit sebarang kerja binaan.</p>
+            <p class="text-blue-400 font-bold">&rarr; [Tekan Pautan] Semak slot konsultasi semakan pelan lantai anda hujung minggu ini.</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- ========================================== -->
+    <!-- TAB 9: PELAN TINDAKAN BERSEPADU            -->
+    <!-- ========================================== -->
+    <div id="content-actionplan" class="hidden space-y-6">
+      
+      <!-- Interactive Budget Simulator for ID Build & BQ Target -->
+      <div class="glass-surface p-6 rounded-2xl border border-blue-500/40 shadow-2xl">
+        <div class="flex flex-col md:flex-row justify-between items-start md:items-center gap-2 mb-4">
+          <div>
+            <h3 class="text-sm font-bold text-white uppercase tracking-wider flex items-center gap-2">
+              <i class="fa-solid fa-calculator text-blue-400"></i>
+              Kalkulator Unjuran Bajet Iklan Godeco Services & Sasaran 30 Deals (RM 150,000)
+            </h3>
+            <p class="text-xs text-slate-400">Simulasikan bajet mengikut model CPL bertapis untuk menjamin 30 closing pakej Design & BQ RM5,000.</p>
+          </div>
+          <span class="text-[11px] font-mono-num text-blue-400 bg-blue-500/10 px-2.5 py-1 rounded-md border border-blue-500/30">Live Simulation</span>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6 bg-slate-900/90 p-5 rounded-xl border border-slate-800">
+          <div>
+            <label class="block text-xs font-semibold text-slate-300 mb-2">Pilih Model Kempen / Penapis:</label>
+            <select id="sim-id-cpl" onchange="updateIdSimulation()" class="w-full bg-slate-800 border border-slate-700 text-white rounded-xl px-3 py-2 text-xs focus:outline-none focus:border-blue-500">
+              <option value="22.93">Senario Semasa (14–19 Okt Fasa Optimum): CPL RM 22.93</option>
+              <option value="25.00" selected>Senario Bertapis 'Deposit RM50 + Rebat RM5k' (Target): CPL RM 25.00</option>
+              <option value="42.49">Senario Kempen Pendaftaran Open Day: CPL RM 42.49</option>
+              <option value="65.00">Senario High-Ticket Binaan Saja (&ge;RM150k): CPL RM 65.00</option>
+            </select>
+          </div>
+
+          <div>
+            <label class="block text-xs font-semibold text-slate-300 mb-2">Sasaran Raw Leads Sebulan:</label>
+            <input type="number" id="sim-id-leads" value="320" oninput="updateIdSimulation()" class="w-full bg-slate-800 border border-slate-700 text-white rounded-xl px-3 py-2 text-xs focus:outline-none focus:border-blue-500 font-mono-num">
+          </div>
+
+          <div class="bg-blue-600/10 border border-blue-500/30 p-3.5 rounded-xl flex flex-col justify-center">
+            <span class="text-xs text-blue-300 block">Anggaran Belanja Bulanan Diperlukan:</span>
+            <span id="sim-id-total-budget" class="text-2xl font-black text-blue-400 font-mono-num">RM 8,000</span>
+            <span id="sim-id-daily-leads" class="text-[11px] text-slate-400 mt-1">Beban Pasukan Sales: ~11 leads / hari (~2.2 leads/staf jika 5 jurujual)</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Realokasi Bajet Jadual -->
+      <div class="glass-surface p-6 rounded-2xl">
+        <div class="flex flex-col md:flex-row justify-between items-start md:items-center gap-3 mb-4">
+          <div>
+            <h3 class="text-base font-extrabold text-white uppercase tracking-wider flex items-center gap-2">
+              <i class="fa-solid fa-arrows-split-up-and-left text-emerald-400"></i>
+              Cadangan Realokasi Peruntukan Bajet Godeco Services
+            </h3>
+            <p class="text-xs text-slate-400">Penstrukturan semula bajet bagi menjana 30 client Design & BQ RM5,000 dan corong Open Day Lembah Klang.</p>
+          </div>
+        </div>
+
+        <div class="overflow-x-auto">
+          <table class="w-full text-left text-xs text-slate-300">
+            <thead class="bg-slate-900/90 text-slate-400 font-bold uppercase tracking-wider border-b border-slate-800">
+              <tr>
+                <th class="py-3 px-4 rounded-l-xl">Saluran / Placement</th>
+                <th class="py-3 px-4">Peruntukan Cadangan (%)</th>
+                <th class="py-3 px-4">Peranan Strategik</th>
+                <th class="py-3 px-4 rounded-r-xl">Rasional Keputusan Godeco Services</th>
+              </tr>
+            </thead>
+            <tbody class="divide-y divide-slate-800/60">
+              <tr class="hover:bg-slate-800/30 transition-colors">
+                <td class="py-3.5 px-4 font-bold text-white">Instagram Reels (Walkthrough Tapak Sebenar & Video Pemenang)</td>
+                <td class="py-3.5 px-4 font-mono-num font-bold text-emerald-400">40.0%</td>
+                <td class="py-3.5 px-4 text-emerald-400 font-bold">Skala Utama</td>
+                <td class="py-3.5 px-4 text-slate-400">Paling efektif menarik golongan eksekutif muda dan pemilik kondo/landed mewah di Lembah Klang yang bersedia membayar RM5k.</td>
+              </tr>
+              <tr class="hover:bg-slate-800/30 transition-colors">
+                <td class="py-3.5 px-4 font-bold text-white">Facebook Reels (Walkthrough Tapak & Jemputan Open Day)</td>
+                <td class="py-3.5 px-4 font-mono-num font-bold text-emerald-400">30.0%</td>
+                <td class="py-3.5 px-4 text-emerald-400 font-bold">Kekalkan Kuat</td>
+                <td class="py-3.5 px-4 text-slate-400">Menjana aliran pertanyaan daripada keluarga matang dan pemilik rumah teres/semi-D di Selangor.</td>
+              </tr>
+              <tr class="hover:bg-slate-800/30 transition-colors">
+                <td class="py-3.5 px-4 font-bold text-white">Kempen Pendaftaran Open Day & Klinik ID</td>
+                <td class="py-3.5 px-4 font-mono-num font-bold text-emerald-400">20.0%</td>
+                <td class="py-3.5 px-4 text-emerald-400 font-bold">Tingkatkan Skala</td>
+                <td class="py-3.5 px-4 text-slate-400">Paling berkesan untuk penutupan jualan bersemuka (closing rate 45%–50% di showroom).</td>
+              </tr>
+              <tr class="hover:bg-slate-800/30 transition-colors">
+                <td class="py-3.5 px-4 font-bold text-white">Facebook Feed & Threads (Carousel BQ & Bebenang Kos)</td>
+                <td class="py-3.5 px-4 font-mono-num text-slate-300">10.0%</td>
+                <td class="py-3.5 px-4 text-slate-400">Edukasi & Nurturing</td>
+                <td class="py-3.5 px-4 text-slate-400">Digunakan untuk membentangkan dokumen BQ 42 muka surat dan membezakan Godeco daripada kontraktor jalanan.</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+
+      <!-- 3 Peringkat Tindakan (Strategic - Tactical - Operational) -->
+      <div class="glass-surface p-6 rounded-2xl">
+        <div class="border-b border-slate-800 pb-4 mb-6">
+          <div class="flex items-center gap-2">
+            <span class="w-2.5 h-2.5 rounded-full bg-emerald-400"></span>
+            <h3 class="text-base font-extrabold text-white uppercase tracking-wider">
+              Pelan Tindakan Bersepadu 3 Peringkat Godeco Services (Strategic &bull; Tactical &bull; Operational)
+            </h3>
+          </div>
+          <p class="text-xs text-slate-400 mt-1">Penyelarasan menyeluruh antara Pengurusan Godeco, Media Buyer, dan Jururunding Jualan.</p>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+          
+          <!-- Level 1: Strategic -->
+          <div class="p-4 bg-slate-900/70 border border-slate-800 rounded-xl space-y-3">
+            <div class="flex items-center gap-2 text-blue-400 text-xs font-bold uppercase tracking-wider">
+              <i class="fa-solid fa-chess"></i> 1. Strategic Level (Pengurusan Godeco)
+            </div>
+            <ul class="text-xs text-slate-300 space-y-2.5 leading-relaxed">
+              <li class="flex items-start gap-2">
+                <i class="fa-solid fa-check text-blue-400 mt-0.5"></i>
+                <span><strong>Model Deposit Komitmen RM50:</strong> Gantikan syarat terus bayar RM5,000 dengan sesi perundingan percuma bernilai RM300 berdeposit RM50 untuk memastikan kehadiran fizikal 85%+.</span>
+              </li>
+              <li class="flex items-start gap-2">
+                <i class="fa-solid fa-check text-blue-400 mt-0.5"></i>
+                <span><strong>Rebat Binaan 100%:</strong> Promosikan secara agresif bahawa yuran RM5,000 pelan arkitek & BQ ditolak 100% daripada kos kontrak binaan &ge; RM150k.</span>
+              </li>
+              <li class="flex items-start gap-2">
+                <i class="fa-solid fa-check text-blue-400 mt-0.5"></i>
+                <span><strong>Penganjuran Open Day Berkala:</strong> Jalankan Open Day dwi-mingguan terhad kepada 25 pemilik rumah sahaja setiap sesi untuk mengekalkan suasana eksklusif.</span>
+              </li>
+            </ul>
+          </div>
+
+          <!-- Level 2: Tactical -->
+          <div class="p-4 bg-slate-900/70 border border-slate-800 rounded-xl space-y-3">
+            <div class="flex items-center gap-2 text-emerald-400 text-xs font-bold uppercase tracking-wider">
+              <i class="fa-solid fa-sliders"></i> 2. Tactical Level (Media Buyer)
+            </div>
+            <ul class="text-xs text-slate-300 space-y-2.5 leading-relaxed">
+              <li class="flex items-start gap-2">
+                <i class="fa-solid fa-check text-emerald-400 mt-0.5"></i>
+                <span><strong>Kekalkan Geofencing 25km:</strong> Kekalkan sekatan ketat pin Lembah Klang yang terbukti menghasilkan 0 leads luar kawasan pada 14–19 Okt.</span>
+              </li>
+              <li class="flex items-start gap-2">
+                <i class="fa-solid fa-check text-emerald-400 mt-0.5"></i>
+                <span><strong>Retargeting Pesaing:</strong> Pasang Custom Audience untuk penonton video 50%+ dan irisan minat bertindih (House Tour Malaysia, Filla, Malaysia Homie).</span>
+              </li>
+              <li class="flex items-start gap-2">
+                <i class="fa-solid fa-check text-emerald-400 mt-0.5"></i>
+                <span><strong>Duplikasi Video Pemenang:</strong> Hasilkan 4 variasi video tapak berwajah pereka bentuk serupa dengan aset fbclid 1965470158172126.</span>
+              </li>
+            </ul>
+          </div>
+
+          <!-- Level 3: Operational -->
+          <div class="p-4 bg-slate-900/70 border border-slate-800 rounded-xl space-y-3">
+            <div class="flex items-center gap-2 text-purple-400 text-xs font-bold uppercase tracking-wider">
+              <i class="fa-solid fa-headset"></i> 3. Operational Level (Sales Team)
+            </div>
+            <ul class="text-xs text-slate-300 space-y-2.5 leading-relaxed">
+              <li class="flex items-start gap-2">
+                <i class="fa-solid fa-check text-purple-400 mt-0.5"></i>
+                <span><strong>SLA Respon &le; 10 Minit:</strong> Hubungi pendaftaran Open Day dalam 10 minit untuk mengunci deposit RM50 dan mengesahkan slot masa kehadiran.</span>
+              </li>
+              <li class="flex items-start gap-2">
+                <i class="fa-solid fa-check text-purple-400 mt-0.5"></i>
+                <span><strong>Skrip Tangani Rejection:</strong> Gunakan skrip matriks jawapan untuk mematahkan alasan "nak survey je" dan "kontraktor bagi harga terus".</span>
+              </li>
+              <li class="flex items-start gap-2">
+                <i class="fa-solid fa-check text-purple-400 mt-0.5"></i>
+                <span><strong>Peringatan Acara T-24 Jam & T-2 Jam:</strong> Hantar panduan lokasi showroom, slot masa, dan video tapak untuk mengelakkan prospek membatalkan kehadiran saat akhir.</span>
+              </li>
+            </ul>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="border-t border-slate-800/80 py-6 text-center text-xs text-slate-500">
+    <div class="flex items-center justify-center gap-2 mb-1">
+      <span class="font-mono-num font-bold text-slate-400">FH Advisory</span> &bull; <span>Meta Ads Optimization Analysis Report</span>
+    </div>
+    Disediakan Khusus Untuk: <span class="text-slate-300 font-semibold">Godeco Services Sdn Bhd</span> &bull; Model Dwi-Tawaran: Design & BQ (RM5,000 &times; 30 Deals) &bull; Design & Build (&ge; RM150,000)
+  </footer>
+
+  <!-- SCRIPT -->
+  <script>
+    function switchTab(tabId) {
+      const tabs = [
+        'overview',
+        'octoberdata',
+        'funnelbenchmarks',
+        'audiencehijack',
+        'winningad',
+        'salesobjections',
+        'placements',
+        'threads',
+        'actionplan'
+      ];
+
+      for (let i = 0; i < tabs.length; i++) {
+        const t = tabs[i];
+        const btn = document.getElementById('tab-' + t);
+        const content = document.getElementById('content-' + t);
+        
+        if (btn && content) {
+          if (t === tabId) {
+            btn.classList.add('nav-tab-active');
+            btn.classList.remove('text-slate-400');
+            content.classList.remove('hidden');
+          } else {
+            btn.classList.remove('nav-tab-active');
+            btn.classList.add('text-slate-400');
+            content.classList.add('hidden');
+          }
+        }
+      }
+    }
+
+    function calculateReverseFunnel() {
+      const dealsSelect = document.getElementById('sim-target-deals');
+      const modelSelect = document.getElementById('sim-filter-model');
+      if (!dealsSelect || !modelSelect) return;
+
+      const deals = parseInt(dealsSelect.value, 10) || 30;
+      const model = modelSelect.value;
+
+      let qualRate, closeRate, apptRate, cplEst, modelLabel;
+
+      if (model === 'unfiltered') {
+        qualRate = 0.085;
+        closeRate = 0.25;
+        apptRate = 0.60;
+        cplEst = 35.00;
+        modelLabel = 'Model Awal Okt (91.5% Unqualified)';
+      } else if (model === 'filtered') {
+        qualRate = 0.30;
+        closeRate = 0.48;
+        apptRate = 0.65;
+        cplEst = 25.00;
+        modelLabel = 'Model Penapis Seimbang + Deposit RM50 (Optimum)';
+      } else if (model === 'overfiltered') {
+        qualRate = 0.45;
+        closeRate = 0.55;
+        apptRate = 0.70;
+        cplEst = 65.00;
+        modelLabel = 'Model Terlebih Tapis (CPL Tinggi)';
+      } else {
+        qualRate = 0.40;
+        closeRate = 0.50;
+        apptRate = 0.70;
+        cplEst = 42.49;
+        modelLabel = 'Model Kempen Khusus Open Day';
+      }
+
+      const apptNeeded = Math.round(deals / closeRate);
+      const qualNeeded = Math.round(apptNeeded / apptRate);
+      const rawNeeded = Math.round(qualNeeded / qualRate);
+      const budgetNeeded = rawNeeded * cplEst;
+      const totalRevenue = deals * 5000;
+      const roas = (totalRevenue / budgetNeeded).toFixed(1);
+      const dailyLeads = (rawNeeded / 30).toFixed(1);
+      const perStaff = (dailyLeads / 5).toFixed(1);
+
+      const elRaw = document.getElementById('calc-raw-leads');
+      const elCpl = document.getElementById('calc-cpl-display');
+      const elQual = document.getElementById('calc-qual-leads');
+      const elAppt = document.getElementById('calc-appt-leads');
+      const elClose = document.getElementById('calc-close-deals');
+      const elRev = document.getElementById('calc-revenue-display');
+      const elBud = document.getElementById('calc-budget-display');
+      const elRoas = document.getElementById('calc-roas-display');
+      const elBudNeed = document.getElementById('calc-budget-needed');
+      const elSales = document.getElementById('calc-sales-capacity');
+
+      if (elRaw) elRaw.textContent = rawNeeded.toLocaleString() + ' Leads';
+      if (elCpl) elCpl.textContent = 'CPL Est: ~RM ' + cplEst.toFixed(2);
+      if (elQual) elQual.textContent = qualNeeded.toLocaleString() + ' Leads';
+      if (elAppt) elAppt.textContent = apptNeeded.toLocaleString() + ' Klien Hadir';
+      if (elClose) elClose.textContent = deals + ' Confirm Deals';
+      if (elRev) elRev.textContent = 'RM ' + totalRevenue.toLocaleString('en-US');
+      if (elBud) elBud.textContent = 'Bajet: ~RM ' + budgetNeeded.toLocaleString('en-US', { maximumFractionDigits: 0 });
+      if (elRoas) elRoas.textContent = 'ROAS Front-End: ~' + roas + 'x';
+      if (elBudNeed) elBudNeed.textContent = 'RM ' + budgetNeeded.toLocaleString('en-US', { maximumFractionDigits: 0 });
+      if (elSales) elSales.textContent = 'Beban Jualan: ~' + dailyLeads + ' leads/hari (~' + perStaff + ' leads/staf jika 5 jururunding) [' + modelLabel + ']';
+    }
+
+    function updateIdSimulation() {
+      const cplEl = document.getElementById('sim-id-cpl');
+      const leadsEl = document.getElementById('sim-id-leads');
+      if (!cplEl || !leadsEl) return;
+
+      const cpl = parseFloat(cplEl.value) || 25.0;
+      const leads = parseFloat(leadsEl.value) || 0;
+      const totalBudget = cpl * leads;
+      const dailyLeads = (leads / 30).toFixed(1);
+      const perStaff = (dailyLeads / 5).toFixed(1);
+
+      const elTotal = document.getElementById('sim-id-total-budget');
+      const elDaily = document.getElementById('sim-id-daily-leads');
+
+      if (elTotal) elTotal.textContent = 'RM ' + totalBudget.toLocaleString('en-US', { minimumFractionDigits: 0, maximumFractionDigits: 0 });
+      if (elDaily) elDaily.textContent = 'Beban Pasukan Sales: ~' + dailyLeads + ' leads / hari (~' + perStaff + ' leads/staf jika 5 jurujual)';
+    }
+
+    // Auto-run on document load
+    document.addEventListener('DOMContentLoaded', function() {
+      calculateReverseFunnel();
+      updateIdSimulation();
+    });
+  </script>
+</body>
+</html>
